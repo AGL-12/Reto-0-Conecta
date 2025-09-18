@@ -1,0 +1,14 @@
+nbproject/
+build/
+dist/
+build.xml
+manifest.mf
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+.vscode/
