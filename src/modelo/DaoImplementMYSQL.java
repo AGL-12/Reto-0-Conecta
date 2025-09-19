@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
  *
  * @author Alexander
  */
-public class DaoImplementsMySQL implements Dao {
+public class DaoImplementMYSQL implements Dao {
 // Atributo para conexion
 
     private ResourceBundle configFile;
@@ -25,7 +25,7 @@ public class DaoImplementsMySQL implements Dao {
     private Connection con;
     private PreparedStatement stmt;
 
-    public DaoImplementsMySQL() {
+    public DaoImplementMYSQL() {
         this.configFile = ResourceBundle.getBundle("modelo.configClase");
         this.urlBD = this.configFile.getString("Conn");
         this.userBD = this.configFile.getString("DBUser");
